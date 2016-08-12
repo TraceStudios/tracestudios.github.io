@@ -1,0 +1,47 @@
+body{
+    background-color: #647E8C; !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app_box{
+    margin: auto 20% auto 20%;
+    background-color: #fafafa;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 16px;
+    padding: 5%;
+}
+
+.app_header{
+    width: inherit;
+}
+
+.header_title{
+    text-align: center;
+    font-size: 60pt;
+    font-weight: bold;
+    color: rgba(0,0,0, 0.87);
+}
+
+.header_tagline{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.app_desc{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.app_download{
+    width: inherit;
+}
+
+.googleplayimg{
+    max-width: 100%;
+    height: auto;
+}
