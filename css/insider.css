@@ -1,47 +1,92 @@
-body{
-    background-color: #647E8C; !important;
+body {
+    background-color: #647E8C;
     font-family: 'Open Sans', sans-serif;
 }
 
-.app_box{
-    margin: auto 20% auto 20%;
-    background-color: #fafafa;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    border-radius: 16px;
-    padding: 5%;
+.content{
+    background-color: #647E8C;
+    margin: 30px;
 }
 
-.app_header{
-    width: inherit;
+.header {
+    height: 90px;
+    background-color: #647E8C;
 }
 
-.header_title{
-    text-align: center;
-    font-size: 60pt;
-    font-weight: bold;
-    color: rgba(0,0,0, 0.87);
+.title_tagline {
+    display: block;
+    float: left;
+    height: auto;
+    width: auto;
 }
 
-.header_tagline{
-    text-align: center;
-    font-size: 20pt;
-    font-weight: lighter;
-    color: rgba(0, 0, 0, 0.54);
+.title_tagline .title {
+    display: inline-block;
+    color: #fafafa;
+    font-size: 30pt;
+    font-weight: 900;
 }
 
-.app_desc{
-    padding-top: 30px;
-    text-align: center;
+.title_tagline .tagline {
+    display: block;
+    color: #fafafa;
     font-size: 16pt;
-    font-weight: lighter;
-    color: rgba(0, 0, 0, 0.54);
+    font-weight: 500;
 }
 
-.app_download{
-    width: inherit;
+.navbttn {
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid #fafafa;
+    border-radius: 5px;
+    transition: background-color ease 200ms;
 }
 
-.googleplayimg{
+.navbttn:hover {
+    background-color: rgba(255, 255, 255, 0.40);
+    transition: ease 200ms;
+}
+
+.navbttn:active {
+    background-color: rgba(255, 255, 255, 0.60);
+    transition: ease 200ms;
+}
+
+.link {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.separator {
+    display: block;
+    height: 2px;
+    margin: 20px 0 20px 0;
+    background-color: #fafafa;
+    border-radius: 1px;
+    border: 1px solid #fafafa;
+}
+
+.desc {
+    color: #fafafa;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.download {
+    display: block;
+    height: auto;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.googleplayimg {
     max-width: 100%;
     height: auto;
 }
