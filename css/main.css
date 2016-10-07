@@ -1,0 +1,59 @@
+header {
+    text-align: center;
+    background-color: #606167;
+    color: #EBECF2;
+    font-family: Verdana, Arial, sans-serif;
+}
+h1 {
+    line-height: 200%;
+    font-weight: bold;
+}
+#wrapper {
+    width: 80% margin-right: auto;
+    margin-left: auto;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.2em;
+}
+body {
+    background-color: #94959E;
+    color: #FFFFFF;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-style: none;
+    font-size: 24px;
+}
+.intro {
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    padding-top: 100px;
+}
+.rotate {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+#nameone {
+    padding-left: 130px;
+    font-size: 20px;
+    display: inline;
+    font-family: Verdana, Arial, sans-serif;
+}
+#nametwo {
+    padding-left: 285px;
+    font-size: 20px;
+    display: inline;
+    font-family: Verdana, Arial, sans-serif;
+}
+#namethree {
+    padding-left: 265px;
+    font-size: 20px;
+    display: inline;
+    font-family: Verdana, Arial, sans-serif;
+}
+#appinsider {
+    padding-top: 30px;
+    padding-left: 15px;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+}
